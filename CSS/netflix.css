@@ -1,0 +1,15 @@
+.netflix img{
+    height: 100px;
+    width:300px;
+    animation-name: Sur;
+    animation-duration:4s;
+    position: fixed;
+}
+
+@keyframes Sur{
+    0%{top: 0px; left: 0px;}
+    25%{top: 0px; left: 500px;}
+    50%{top: 500px; left: 500px;}
+    75%{top: 500px; left: 0px;}
+    100%{top: 0px; left:0px;}
+}

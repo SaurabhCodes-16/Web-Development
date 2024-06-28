@@ -1,0 +1,41 @@
+body{
+    background: greenyellow;
+
+}
+
+.Intro{
+    position: relative;
+    
+    
+    animation-name: Saurabh;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes Saurabh{
+    0%{ left: 300px; top:-200px;}
+   
+    100%{left: 300px; top: 300px;}
+    
+}
+
+.Intro h1{
+
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration:none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    mix-blend-mode:luminosity;
+}

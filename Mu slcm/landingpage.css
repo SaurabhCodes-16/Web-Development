@@ -1,0 +1,133 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.container {
+    height: 50px;
+    width: 50px;
+}
+
+header {
+    background: lightblue;
+    background: rgba(135,206,250,0.1);
+    color: #ffffff;
+    padding-top: 10px; /* Corrected padding syntax */
+    padding-bottom: 5px;
+    min-height: 70px;
+    
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#branding img {
+    width: 200px; /* Adjust the logo size as needed */
+    padding-bottom: 10px;
+    
+
+}
+
+.edubuilding {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.edubuilding img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dark {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background:rgba(255,255,255,0.8);
+    color: #f4f4f4;
+    height:320px;
+    padding-right: 10px;
+    padding-top:0px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.my-form input, .my-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background: red;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    width: 70px;
+    left:10%;
+    float:left;
+    margin-left: -10px;
+    border-radius: 0%;
+}
+
+input[type="submit"]:hover {
+    background: #444;
+}
+
+button.refresh-captcha {
+    background: blue;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    border-radius: 0%;
+    margin-left: 20px; /* Space between the buttons */
+}
+
+button.refresh-captcha:hover {
+    background: #0033cc;
+}
+
+.dark h1{
+    font-size: 20px;
+    
+    background : brown;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0%;
+}
+
+.my-form{
+    background-color: (220,225,225,0.6);
+}
+
+input.Username{
+    background-color:lightgray;
+}
+
+input.Btn{
+margin-left:0%;
+}
