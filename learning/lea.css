@@ -30,12 +30,21 @@ body{
   font-weight: 500;
   margin-top: 10px;
   color: #111;
-  letter-spacing: 2px;
-  transition: 0.2s;
+  
+  transition: 2s;
+}
+
+.Intro h1 a{
+    text-decoration: none;
+    transition: 1s;
+}
+
+.Intro h1 a:hover{
+    letter-spacing: 3px;
 }
 
 img{
     height: 200px;
     width: 200px;
-    mix-blend-mode:luminosity;
+    
 }

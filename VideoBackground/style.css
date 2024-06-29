@@ -153,8 +153,8 @@ header .logo
 }
 .social li a:hover
 {
-  transform: scale(0.5) ;
-  filter: invert(0.5);
+  transform: scale(1.2) ;
+  
 }
 
 .social img{
