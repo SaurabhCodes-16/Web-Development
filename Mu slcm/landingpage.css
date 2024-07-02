@@ -114,10 +114,11 @@ button.refresh-captcha:hover {
 .dark h1{
     font-size: 20px;
     
-    background : brown;
+    background : rgb(196, 84, 84);
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 0%;
+    object-fit: fill;
 }
 
 .my-form{
